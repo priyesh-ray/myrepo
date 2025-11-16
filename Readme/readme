@@ -1,0 +1,11 @@
+# 🧪 Selenium Python UI Automation Framework
+
+This project automates UI test cases for [Practice Automation Testing](https://practice.automationtesting.in) using Selenium WebDriver and Python. It follows the Page Object Model (POM) design pattern and uses PyTest for test execution.
+
+## ✅ Automated Test Cases
+
+- 🔐 Registration and Login
+- 🛒 Add and Remove Products from Cart
+- 🏠 Add Address to Profile and Verify It Is Saved
+
+## 🗂️ Project Structure
