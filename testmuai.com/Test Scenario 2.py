@@ -7,7 +7,7 @@ import time
 driver = webdriver.Chrome()
 driver.maximize_window()
 
-# Step 1: Open Selenium Playground
+# Step 1: Open Open TestMu
 driver.get("https://www.testmuai.com/selenium-playground/")
 time.sleep(2)
 
