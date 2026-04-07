@@ -3,10 +3,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 import time
 
+
+ # disables save password
 options = webdriver.ChromeOptions()
-options.add_argument("--disable-save-password-bubble")   # disables save password/address bubble
-options.add_argument("--disable-autofill")               # disables autofill
-options.add_argument("--disable-popup-blocking") 
+options.add_argument("--disable-save-password-bubble")  
+options.add_argument("--disable-autofill")              
+options.add_argument("--disable-popup-blocking")
 
 # Initialize the browser
 driver = webdriver.Chrome()
